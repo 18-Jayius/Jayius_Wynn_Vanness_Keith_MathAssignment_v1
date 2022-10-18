@@ -8,13 +8,13 @@ public class SceneScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void part1()
@@ -51,4 +51,8 @@ public class SceneScript : MonoBehaviour
     {
         Application.Quit();
     }
+    public void returntoscene()
+        {
+        SceneManager.LoadScene("SampleScene");
+        }
 }
